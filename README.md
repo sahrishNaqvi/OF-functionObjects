@@ -16,5 +16,5 @@ The implementation is based on the definition provided in [How to calculate tort
 *Updating the Make Directory*: Add a reference to Tortuosity/Tortuosity.C within the files located inside the Make directory.
 
 ## Usage
-- After completing your simulations, the Tortuosity function object can be invoked using the command: `<solver> -postProcess -func Tortuosity`.
+- After completing your simulations, the Tortuosity function object can be invoked using the command: `<solver> -postProcess -func Tortuosity -latestTime`.
 - Replace <solver> with the appropriate solver you're using. The -latestTime flag indicates that the function should operate on the most recent simulation time.
