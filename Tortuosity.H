@@ -22,20 +22,20 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Class
-    Foam::functionObjects::strainRate
+    Foam::functionObjects::Tortuosity
 
 Group
     grpFieldFunctionObjects
 
 Description
-    This function object calculates the strain rate.
+    This function object calculates the Tortuosity.
 
 See also
     Foam::functionObjects::fieldExpression
     Foam::functionObjects::fvMeshFunctionObject
 
 SourceFiles
-    strainRate.C
+    Tortuosity.C
 
 \*---------------------------------------------------------------------------*/
 
@@ -52,7 +52,7 @@ namespace functionObjects
 {
 
 /*---------------------------------------------------------------------------*\
-                          Class strainRate Declaration
+                          Class Tortuosity Declaration
 \*---------------------------------------------------------------------------*/
 
 class Tortuosity
